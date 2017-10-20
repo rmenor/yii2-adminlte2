@@ -1,0 +1,30 @@
+{
+    "name": "rmenor/yii2-adminlte2",
+    "description": "Panel de control basado en AdminLTE 2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","adminlte2"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Ramón Menor",
+            "email": "ramonmenor@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/rmenor/yii2-adminlte2/issues",
+        "source": "https://github.com/rmenor/yii2-adminlte2"
+    },
+    "require": {
+        "php": ">=5.6.0",
+        "yiisoft/yii2": ">=2.0.10",
+        "yiisoft/yii2-bootstrap": "*",
+        "bower-asset/fontawesome": "4.7.*",
+        "almasaeed2010/adminlte": "~2.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "rmenor\\adminlte2\\": ""
+        }
+    }
+}
