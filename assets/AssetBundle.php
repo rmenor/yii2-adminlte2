@@ -15,7 +15,8 @@ class AssetBundle extends \yii\web\AssetBundle
         'css/skins/_all-skins.min.css',
     ];
     public $js = [
-        'js/adminlte.min.js'
+        'js/adminlte.min.js',
+        'js/demo.js'
     ];
     public $depends = [
         'yii\web\YiiAsset',
