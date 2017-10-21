@@ -115,9 +115,9 @@ class Box extends Widget
     public function boxButtons($buttons)
     {
         if ($this->isCollapsed) {
-            $icon = '<i class="fa fa-minus"></i>';
-        }else {
             $icon = '<i class="fa fa-plus"></i>';
+        }else {
+            $icon = '<i class="fa fa-minus"></i>';
         }
 
         $buttons .= Html::tag('button', $icon, [
