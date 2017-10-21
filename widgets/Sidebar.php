@@ -33,12 +33,18 @@ class Sidebar extends Widget
     public $items;
 
     /**
+     * Url user image, by default via placeholder.com
+     * @var string
+     */
+    public $urlUserImage = 'http://via.placeholder.com/160x160';
+
+    /**
      * @return string
      */
     private function userPanel()
     {
         $content = '<div class="pull-left image">
-                <img src="http://via.placeholder.com/160x160" class="img-circle" alt="User Image">
+                '.Html::img($this->urlUserImage, ['class' => 'img-circle', 'alt' => 'User image']).'
             </div>
             <div class="pull-left info">
                 <p>'.Yii::$app->user->identity->username.'</p>
