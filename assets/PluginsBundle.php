@@ -16,5 +16,6 @@ class PluginsBundle extends \yii\web\AssetBundle
     public $js = [
     ];
     public $depends = [
+        'yii\bootstrap\BootstrapPluginAsset',
     ];
 }
