@@ -9,9 +9,9 @@ namespace rmenor\adminlte2\assets;
 
 class PluginsBundle extends \yii\web\AssetBundle
 {
-    public $sourcePath = '@vendor/almasaeed2010/adminlte';
+    public $sourcePath = '@vendor/bower';
     public $css = [
-        'bower_components/font-awesome/css/font-awesome.min.css',
+        'fontawesome/css/font-awesome.min.css',
     ];
     public $js = [
     ];
